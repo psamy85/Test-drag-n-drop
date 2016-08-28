@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 100;
+    font-family: 'Lato';
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.title {
+    font-size: 96px;
+    text-align: center;
+    color: #FEFEE2;
+}
+
+.list-group-item {
+    padding: 0px !important;
+    border: none !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    vertical-align: middle !important;
+}
+
+.movie-container {
+    color: #fff;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0), #222 );
+    height: 100px;
+    vertical-align: top;
+    line-height: 90px;
+    text-align: center;
+}
+
+.movie-title {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.movie-duration {
+    display: inline-block;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px #222;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 5%;
+    vertical-align: top;
+}
+
+.movie-director {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.movie-release {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
